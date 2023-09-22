@@ -21,3 +21,11 @@ Script is called from a batch file (ChocoUpgradeALL.ps1).
 To update office, we call the **OfficeC2RClient.exe** executable within our batch script directly:
 
   **"C:\Program Files\Common Files\microsoft shared\ClickToRun\OfficeC2RClient.exe" /update user**
+
+
+https://www.powershellgallery.com/packages/PSWindowsUpdate/2.2.0.3
+ Get-Command –Module PSWindowsUpdate
+Show-WindowsUpdate 
+Install-WindowsUpdate 
+
+https://pureinfotech.com/install-windows-10-update-powershell/
