@@ -1,7 +1,7 @@
 # Install Chocolatey & GUI
-        https://chocolatey.org/install
-        https://community.chocolatey.org/packages/chocolateygui
-choco install chocolateygui
+- https://chocolatey.org/install
+- https://community.chocolatey.org/packages/chocolateygui
+        choco install chocolateygui
     
 
 # Chocolatey-update-scripts | Powershell and batch scripts to update Windows, MSOffice and Chocolately packages. 
