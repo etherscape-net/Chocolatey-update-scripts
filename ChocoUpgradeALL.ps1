@@ -1,9 +1,14 @@
 # Install all updates of packages installed from Chocolately Repos
-choco upgrade all  -y
 
-# Be sure to install Install-Module PSWindowsUpdate -force, first!!
-# https://stackoverflow.com/questions/41117421/ps1-cannot-be-loaded-because-running-scripts-is-disabled-on-this-system
+    write-host "Now checking the Chocolatey repo for updates....`n"
+    choco upgrade all  -y
 
 # Query and Install all Windows Updates
-# Get-WindowsUpdate -AcceptAll -Install -IgnoreReboot
-Install-WindowsUpdate -NotCategory "Drivers" -AcceptAll  -IgnoreReboot
+    
+    write-host  "Now checking for windows updates...`n"
+    Install-WindowsUpdate -NotCategory "Drivers" -AcceptAll -verbose -IgnoreReboot
+
+# Install any Office Updates
+
+    write-host "Now checking for office updates...`n"
+    Start-Process -FilePath 'C:\Program Files\Common Files\microsoft shared\ClickToRun\OfficeC2RClient.exe' "/update user"
