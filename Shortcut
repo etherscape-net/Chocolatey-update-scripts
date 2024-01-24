@@ -1,2 +1,0 @@
-### Creating Shorcut to Update PS1 file ###
-    ` "C:\Program Files\PowerShell\7\pwsh.exe" -f C:\ProgramData\chocolatey\ChocoUpgradeALL.ps1 `
