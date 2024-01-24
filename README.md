@@ -30,6 +30,9 @@
 
 
 #### https://www.powershellgallery.com/packages/PSWindowsUpdate/2.2.0.3
+
+ Validate Module cmdlet:
+ 
         Get-Command –Module PSWindowsUpdate
         Show-WindowsUpdate 
         Install-WindowsUpdate 
