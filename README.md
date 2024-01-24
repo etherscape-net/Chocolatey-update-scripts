@@ -39,6 +39,9 @@
 
 https://pureinfotech.com/install-windows-10-update-powershell
 
+#### https://www.virtualizationhowto.com/2023/06/pswindowsupdate-automated-windows-updates-with-powershell/
+#### https://adamtheautomator.com/import-powershell-modules/
+
 In PowerShell, the Get-WindowsUpdate command lists all available Windows updates for a computer. The Install-WindowsUpdate command gets a list of updates and installs them. 
 To install updates using PowerShell, you can:
 
