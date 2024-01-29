@@ -9,7 +9,9 @@
     choco upgrade all  -y
 
 
-# Install any Windows Updates (except drivers).  Surpress any auto-reboots.
+# Install any Windows Updates (except drivers). Accept prompts and  surpress any auto-reboots.
+# First import-pswindowsupdate  module
+    Import-Module -Name PSWindowsUpdate
     write-host  "Now checking for windows updates...`n"
     Install-WindowsUpdate -NotCategory "Drivers" -AcceptAll -verbose -IgnoreReboot
 
