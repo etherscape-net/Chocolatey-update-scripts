@@ -16,5 +16,6 @@
     Install-WindowsUpdate -NotCategory "Drivers" -AcceptAll -verbose -IgnoreReboot
 
 # Install any Office Updates
-    write-host "Now checking for office updates...`n"
-    Start-Process -FilePath 'C:\Program Files\Common Files\microsoft shared\ClickToRun\OfficeC2RClient.exe' "/update user"
+# 2/3/24 -Commenting out, as something seems to break with MS365 when using this method
+#   write-host "Now checking for office updates...`n"
+#   Start-Process -FilePath 'C:\Program Files\Common Files\microsoft shared\ClickToRun\OfficeC2RClient.exe' "/update user"
