@@ -31,6 +31,8 @@
 
 #### https://www.powershellgallery.com/packages/PSWindowsUpdate/2.2.0.3
 
+          Install-Module -Name PSWindowsUpdate -RequiredVersion 2.2.0.3
+
  Validate Module cmdlet:
  
         Get-Command –Module PSWindowsUpdate
